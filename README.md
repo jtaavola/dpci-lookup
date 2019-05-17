@@ -1,16 +1,21 @@
-# DPCI Lookup - Find Target items using BrickSeek
+# DPCI Lookup - Find Target items using [BrickSeek](https://brickseek.com/target-inventory-checker/)
+
 A DPCI lookup designed for Target items
 
 ## Dependencies
+
 - Beautiful Soup 4
   - install:
+
+    ```bash
+    pip3 install beautifulsoup4
     ```
-    $ pip3 install beautifulsoup4
-    ```
+
 - Requests
   - install:
-    ```
-    $ pip3 install requests
+
+    ```bash
+    pip3 install requests
     ```
 
 ## Usage
@@ -28,6 +33,7 @@ else:
 ## Demo
 
 Run the demo with:
-```
-$ python3 dpci_lookup
+
+```bash
+python3 dpci_lookup
 ```
